@@ -5,7 +5,7 @@ Plugin Name: Infusionsoft® Web Form JavaScript
 Plugin URI: http://novaksolutions.com/wordpress-plugins/infusionsoft-webform-javascript/
 Description: Easily insert Infusionsoft® web forms into your posts or pages.
 Author: Novak Solutions
-Version: 1.1.0
+Version: 1.1.1
 Author URI: http://novaksolutions.com/
 */
 
@@ -78,9 +78,17 @@ function novaksolutions_wf_settings() {
     do_settings_sections('novaksolutions-wf-settings');    //pass slug name of page
     submit_button();
     echo '</form>';
+    ?>
 
-    echo '<h3>Like this plugin?</h3>';
-    echo '<p>Visit <a href="http://novaksolutions.com/?utm_source=wordpress&utm_medium=link&utm_campaign=wf">Novak Solutions</a> to find dozens of free tips, tricks, and tools to help you get the most out of Infusionsoft®.</p>';
+    <h3>Usage Instructions</h3>
+    <p>If you've enabled auto-replace above, then simply paste the web form Javascript Snippet into your post or page. When you publish or update your post, the snippet will be converted into the appropriate shortcode. Be sure to paste it into the Visual editor and not the Text editor.</p>
+    <p>Alternatively, you can use a shortcode. Get the URL from the Javascript Snippet and put it in a shortcode like this:</p>
+    <pre>[<?php echo get_option('novaksolutions_wf_setting_shortcode', 'javascript'); ?> src="https://example.infusionsoft.com/app/form/iframe/5d07ccaa3e9ab94dea1f6982da9fb266"/]</pre>
+
+    <h3>Like this plugin?</h3>
+    <p>Visit <a href="http://novaksolutions.com/?utm_source=wordpress&utm_medium=link&utm_campaign=wf">Novak Solutions</a> to find dozens of free tips, tricks, and tools to help you get the most out of Infusionsoft®.</p>
+
+    <?php
 }
 
 

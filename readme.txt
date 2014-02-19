@@ -5,7 +5,7 @@ Author URI: http://novaksolutions.com/
 Plugin URI: http://novaksolutions.com/wordpress-plugins/infusionsoft-webform-javascript/
 Requires at least: 2.7
 Tested up to: 3.8
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,7 +41,16 @@ Add a CSS attribute to your shortcode, for example:
 
 You can easily disable this feature on the plugin's settings page.
 
+== Screenshots ==
+
+1. Configuration is optional. By default the shortcode is *javascript* and
+auto replace is enabled.
+2. An example of a web form being displayed.
+
 == Changelog ==
+
+= 1.1.1 =
+* Included better documentation within the plugin
 
 = 1.1.0 =
 * First release on WordPress.org
