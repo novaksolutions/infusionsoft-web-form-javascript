@@ -4,7 +4,7 @@ Tags: infusionsoft, webform, web forms, webforms, javascript
 Author URI: http://novaksolutions.com/
 Plugin URI: http://novaksolutions.com/wordpress-plugins/infusionsoft-webform-javascript/
 Requires at least: 2.7
-Tested up to: 3.9
+Tested up to: 3.9.2
 Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
